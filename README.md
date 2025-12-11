@@ -96,6 +96,6 @@
 ## 📸 UI 截图
 
 | 当日天气主界面 | 未来预报列表 |
-|![当日天气主界面截图](gradle/screenshots/MainPage.png | ![未来预报列表截图](gradle/screenshots/ForecastPage.png) |
+|![当日天气主界面截图](gradle/screenshots/MainPage.png) | ![未来预报列表截图](gradle/screenshots/ForecastPage.png) |
 |  |  |
 | *显示当前温度、日夜详情和城市列表* | *显示未来多日天气，包括日期、状态和温差* |
