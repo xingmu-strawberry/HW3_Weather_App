@@ -1,0 +1,58 @@
+# -----------------------------------------------------------
+# 1. JetBrains / Android Studio 自动生成文件
+# -----------------------------------------------------------
+*.iml                 # IntelliJ/Android Studio 模块文件
+.idea/caches/         # IDE 缓存目录
+.idea/libraries/      # IDE 库配置
+.idea/modules.xml     # 模块列表文件
+.idea/workspace.xml   # 窗口布局和会话状态文件
+.idea/navEditor.xml   # 导航编辑器配置
+.idea/assetWizardSettings.xml # 资源向导设置文件
+
+
+# -----------------------------------------------------------
+# 2. Gradle & Build Artifacts (构建产物)
+# -----------------------------------------------------------
+.gradle               # Gradle 缓存目录
+/local.properties     # 本地环境属性（包含 SDK 路径等敏感/本地化信息）
+/build                # 所有项目和模块的构建输出目录（如 .apk, .aar）
+/captures             # 性能分析捕获文件
+
+
+# -----------------------------------------------------------
+# 3. Native Development (C/C++ 原生开发相关)
+# -----------------------------------------------------------
+.externalNativeBuild  # 外部原生构建的缓存和配置
+.cxx                  # CMake/NDK 相关构建目录
+
+
+# -----------------------------------------------------------
+# 4. 操作系统 & 其它通用忽略项
+# -----------------------------------------------------------
+# macOS
+.DS_Store             # macOS 目录服务文件
+# Thumbnails
+Thumbs.db
+
+# -----------------------------------------------------------
+# 5. 推荐添加的常见 Android 忽略项
+# -----------------------------------------------------------
+# Android Studio 模板文件
+*.iml
+
+# 签署密钥文件 (安全考虑，不应提交)
+*.keystore
+# JKS key file
+*.jks
+
+# 调试配置
+lint-results.html
+lint-results.xml
+
+# ProGuard/R8 混淆文件
+proguard-project.txt
+# 混淆映射文件（用于崩溃分析，但通常不提交到主分支）
+app/build/outputs/mapping/
+
+# 编译缓存和日志
+.cxx/
